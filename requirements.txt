@@ -1,22 +1,21 @@
-# LangChain Core
+# Streamlit
+streamlit
+
+# YouTube Transcript API
+youtube-transcript-api
+
+# LangChain Core & Integrations
 langchain
 langchain-core
-
-# OpenAI Integration
-langchain-openai
-openai
-
-# Anthropic Integration
-langchain-anthropic
-
-# Google Gemini (PaLM) Integration
 langchain-google-genai
 google-generativeai
-
-# Hugging Face Integration
 langchain-huggingface
 transformers
 huggingface-hub
+langchain-community
+
+# Vector Store
+faiss-cpu
 
 # Environment Variable Management
 python-dotenv
@@ -24,5 +23,3 @@ python-dotenv
 # Machine Learning Utilities
 numpy
 scikit-learn
-# Streamlit
-streamlit
