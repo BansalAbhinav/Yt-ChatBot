@@ -4,6 +4,13 @@ A **Streamlit-based RAG (Retrieval-Augmented Generation) chatbot** that allows u
 
 ---
 
+
+## Live Link
+
+```bash
+https://ytchatbotbansal.streamlit.app/
+```
+
 ## Features
 
 - Fetches **YouTube video transcripts** in English.
