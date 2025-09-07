@@ -14,6 +14,7 @@ import os
 import re
 st.title("🎬 YouTube Transcript GPT Assistant") 
 st.write("Paste a YouTube video URL and ask questions about its transcript!")
+
 video_id = st.text_input("Enter YouTube Video Url:")
 
 
@@ -98,7 +99,9 @@ Answer:
     st.session_state['retriever'] = retriever
     st.success("Model initialized! You can now ask questions.")
     
-st.video(video_id, format="video/mp4", start_time=0)    
+if video_id:
+    st.video(video_id, format="video/mp4", start_time=0)
+
 
 if 'main_chain' in st.session_state:
         
